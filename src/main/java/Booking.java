@@ -8,8 +8,6 @@ public class Booking {
     public Booking(int nightsBooked) {
         this.bedrooms = new ArrayList<>();
         this.nightsBooked = nightsBooked;
-
-
     }
 
     public int showNightsBooked() {
@@ -22,6 +20,7 @@ public class Booking {
     }
 
     public void addBooking(Bedroom bedroom) {
+        bedroom.setBooked(true);
         this.bedrooms.add(bedroom);
     }
 

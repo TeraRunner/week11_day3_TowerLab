@@ -43,4 +43,7 @@ public class Hotel {
         return booking.showNightsBooked() * bedroom.getNightlyRate();
     }
 
+//    public int vacantCheck(Bedroom bedrooms) {
+//        int total = 0;
+//    }
 }
